@@ -20,3 +20,9 @@ else if (randomNumber2 > randomNumber1) {
 else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
+let rollDice = document.querySelector(".rollDice").addEventListener("click" , rolldice);
+
+function rolldice() {
+location.reload();
+}

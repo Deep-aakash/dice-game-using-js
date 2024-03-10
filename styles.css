@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393E46 !important;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ECCA3 !important;
 }
 
 p {
@@ -32,9 +32,25 @@ img {
   width: 80%;
 }
 
+.btn{
+  margin-top: 23px;
+}
+
+.rollDice{
+  height: 3rem;
+  width: 11rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #4ECCA3;
+  color: #EEEEEE;
+  border: none;
+  box-shadow: 4px 6px #232931;
+}
+
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #EEEEEE !important;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
